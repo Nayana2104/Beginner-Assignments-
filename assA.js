@@ -17,7 +17,7 @@ function calculateGrades(avg) {
     } else if (avg >= 60) {
         return 'D';
     } else {
-        return 'F';
+        return 'Fail';
     }   
 }
 students.forEach(student => {
